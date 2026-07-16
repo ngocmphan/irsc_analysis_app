@@ -1,0 +1,13 @@
+# Ignore virtual environments
+venv/
+.venv/
+env/
+
+# Ignore large or sensitive data files
+*.csv
+*.xlsx
+raw_data/
+
+# Ignore Streamlit secrets or local configs
+.streamlit/secrets.toml
+.DS_Store
