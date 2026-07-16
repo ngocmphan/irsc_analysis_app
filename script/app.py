@@ -491,7 +491,7 @@ with tab2:
             selected_inst = st.multiselect(
                 "Select one or more institutions to compare the historical IRSC funding performance, up to 4 institutions:", 
                 options=all_institutions, max_selections= 4, 
-                default="Centre hospitalier de l'Université de Montréal (CHUM)"
+                default="Université de Montréal"
             )
 
             if selected_inst:
@@ -620,7 +620,7 @@ with tab3:
     with col_src2:
         st.subheader("2. Project-Level Decisions")
         st.markdown(
-            "**Source:** Extracted directly from the official **CIHR Funding Decisions Database**.\n\n"
+            "**Source:** Extracted directly from the official **CIHR Funding Decisions Database** filtered on Project Grant.\n\n"
             "**Scope:** Provides highly detailed institutional, researcher, and program-level data."
         )
 
