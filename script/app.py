@@ -590,7 +590,7 @@ with tab2:
 with tab3:
     st.title("About This Dashboard")
     st.markdown(
-        "This dashboard serves as an interactive tool to analyze and explore health research funding trajectories. "
+        "This dashboard serves as an interactive tool to analyze and explore health research funding trajectories focusing on project grant. "
         "To ensure transparency in how these metrics are calculated, please review the data sources, update schedules, "
         "and analytical limitations detailed below."
     )
