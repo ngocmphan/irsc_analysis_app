@@ -94,7 +94,7 @@ with tab1:
         
 
         col1, col2, col3, col4, col5, col6 = st.columns(6)
-        col1.metric("Total applications submitted", f"{total_apps:,}")
+        col1.metric("Apps Submitted", f"{total_apps:,}")
         col2.metric("Total Projects Funded", f"{total_funded:,}")
         col3.metric("National success rate", f"{national_success_rate}")
         col4.metric("Total funding amount", f"${total_amount:,.1f}M")
